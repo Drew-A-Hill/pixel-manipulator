@@ -1,0 +1,12 @@
+Script
+load ./src/ImageFiles/testImages/myImage.ppm img
+brighten 100 img brightImg
+darken 150 brightImg darkImg
+red darkImg redImg
+green redImg greenImg
+blue greenImg blueImg
+luma blueImg lumaImg
+value lumaImg valueImg
+intensity valueImg intensityImg
+save ./src/ImageFiles/testImages/myImage.jpeg intensityImg
+quit
